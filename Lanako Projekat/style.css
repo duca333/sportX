@@ -1,0 +1,132 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #787878;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: grid;
+    place-items: center;
+    max-width: 540px;
+    padding: 0 20px;
+    margin: 200px auto;
+    
+}
+
+.wrapper .market {
+    font-size: 40px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.container {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.container .title {
+    text-align: center;
+    line-height: 80px;
+    background: #66FF00;
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+@media (max-width:502px) {
+    .wrapper .market {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:360px) {
+    .wrapper .market {
+        font-size: 15px;
+    }
+}
+
+.container form {
+    padding: 25px 30px 15px 20px;
+    border: 3px solid black;
+    background-color: black;
+}
+
+.container form .row {
+    height: 40px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.container form .row input {
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    outline: none;
+}
+
+.container form .row i  {
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: white;
+    background-color: #66FF00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border: 1px solid #66FF00;
+}
+
+.singup-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.singup-link a {
+    text-decoration: none;
+    color: #66FF00;
+}
+
+.container .row a {
+    color:white !important;
+}
+
+
+
+.container form .pass {
+    margin: 15px 0 5px 0;
+}
+
+.container form .pass a {
+    color: #16a085;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.login-btn {
+    padding: 0 !important;
+    color: white;
+    font-weight: 500;
+    background: #66FF00;
+    border:#66FF00 1px solid;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-decoration-color:black ;
+}
